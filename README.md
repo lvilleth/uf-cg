@@ -14,7 +14,7 @@ Criar uma solução para rasterizar linhas e pontos. Através da rasterização 
 - [X] Círculos
 
 ## Desenvolvimento
-  A principal técnica utilizada foi o algoritmo de Bresenham para linhas e aplicado para rasterizar círculos. O sistema de cores usado é o RGBA, com cada canal representado por 8 bits. 
+  A principal técnica utilizada foi o algoritmo de Bresenham para linhas e generalizado para rasterizar círculos. O sistema de cores usado é o RGBA, com cada canal representado por 8 bits. 
 
 ### Ponto
   Com acesso direto à memória, o pixel desejado pode ter a intensidade de seus canais de cor alterados através de suas coordenadas x e y. Seja W a largura total da sua janela, com 4 canais de cores o primeiro byte de cada pixel é encontrado através da fórmula:
@@ -57,8 +57,8 @@ Criar uma solução para rasterizar linhas e pontos. Através da rasterização 
   
   Como já dito, todas as operações anteriores só funcionam para dy < dx. A solução é novamente operações de simetria, desta vez feitas usando Y como referência. O resultado são linhas que podem ser rasterizadas em todas as direções.
   
-Em ciano: `dy > dx.` <br>
-Em verde: `dy <= dx.`
+Em verde:    `dy > dx.` <br>
+Em vermelho: `dy <= dx.`
 
   <p align="center">  <img width="313" height="350" src="img/linha-bres-3.png"></p>
   
