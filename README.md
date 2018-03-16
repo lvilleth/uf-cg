@@ -10,7 +10,7 @@ Criar uma solução para rasterizar linhas e pontos. Através da rasterização 
 - [X] Linhas
 - [X] Interpolação de cores
 - [X] Triângulos
-- [X] Quadrados
+- [X] Retângulos
 - [X] Círculos
 
 ## Desenvolvimento
@@ -70,10 +70,10 @@ Em vermelho: `dy <= dx.`
 ###### Resultado
 <p align="center">  <img width="514" height="162" src="img/cor.png"></p>
 
-### Triângulo e Quadrado
-  Fornecidos os respectivos vértices do polígono, são rasterizadas as linhas que formam suas arestas. 
+### Triângulo e Retângulo
+  Fornecidos os respectivos vértices do polígono, utiliza-se o algoritmo de rasterização de linhas para formar suas arestas. 
 
-<p align="center">  <img width="312" height="348" src="img/triangulo.png"> <img width="312" height="348" src="img/retangulo.png"> </p>
+<p align="center">  <img width="353" height="348" src="img/triangulo.png"> <img width="390" height="348" src="img/retangulo.png"> </p>
 
 ### Círculo
 
