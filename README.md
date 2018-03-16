@@ -63,7 +63,7 @@ Em vermelho: `dy <= dx.`
   <p align="center">  <img width="313" height="350" src="img/linha-bres-3.png"></p>
   
 ### Interpolação de Cor
-    A transição de cor entre os vértices foi feito através da interpolação linear dos canais de cor. 
+  A transição de cor entre os vértices foi feito através da interpolação linear dos canais de cor. 
 
 <p align="center"> <img src="img/lerp-cor.jpg">,  <img src="img/lerp-lambda.jpg"> </p>
 
@@ -71,9 +71,9 @@ Em vermelho: `dy <= dx.`
 <p align="center">  <img width="514" height="162" src="img/cor.png"></p>
 
 ### Triângulo e Quadrado
-    Fornecidos os respectivos vértices do polígono, são rasterizadas as linhas que formam suas arestas. 
+  Fornecidos os respectivos vértices do polígono, são rasterizadas as linhas que formam suas arestas. 
 
-<p align="center">  <img width="312" height="348" src="img/triangulo.png"> <img width="312" height="348" src="img/quadrado.png"> </p>
+<p align="center">  <img width="312" height="348" src="img/triangulo.png"> <img width="312" height="348" src="img/retangulo.png"> </p>
 
 ### Círculo
 
