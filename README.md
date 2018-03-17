@@ -76,8 +76,12 @@ Em vermelho: `dy <= dx.`
 <p align="center">  <img width="353" height="348" src="img/triangulo.png"> <img width="390" height="348" src="img/retangulo.png"> </p>
 
 ### Círculo
+A rasterização do círculo a partir de Bresenham baseia-se na simetria da forma. Em um arco de 45º, a escolha do pixel é feita checando qual pixel (N ou S) melhor se aproxima do círculo real de raio R. O restante é rasterizado por reflexão do pixel escolhido em todas as 8 regiões do círculo. 
 
-<p align="center">  <img width="408" height="252" src="img/circulo.png"></p>
+<p align="center"> <img src="img/canvas3.png"> <img width="403" height="329" src="img/circ-div.png"></p>
+
+###### Resultado:
+<p align="center">  <img width="334" height="329" src="img/circulos.png"> <img width="334" height="329" src="img/circulos-2.png"></p>
 
 ## Discussão e Problemas Encontrados
 
