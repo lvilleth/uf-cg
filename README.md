@@ -75,7 +75,7 @@ O carregamento dos objetos foi realizado por meio de um LOADER disponibilizado p
 
 Nosso Pipeline | OpenGL
 ---------------|-------------
-<img width="334" height="329" src="img/monkey_pipeline_500.gif"> | <img width="334" height="329" src="img/img/monkey_opengl_500.gif">
+<img width="500" height="281" src="img/monkey_pipeline_500.gif"> | <img width="500" height="281" src="img/monkey_opengl_500.gif">
 
 ## 4. Dificuldades
 Entre as dificuldades encontradas esta o carregamento do objeto para o software uma vez que o OpenGL não impleta isto e inicialmente foram feitas tentativas falhas com o Assimp, após o envio do loader pelo professor Christian fez-se progresso nesta etapa. Além disto tivemos dificuldade encontrar os valores compatíveis para o fator de escala, o ângulo para a matriz de rotação e demais valores para os elementos das matrizes.
@@ -92,4 +92,4 @@ A diferença entre a matriz de projeção perspectiva para a de projeção ortog
 ### Correção
 Abaixo temos o vídeo comparativo esperado deste trabalho.
 
-<img width="334" height="329" src="img/monkey_pipeline_orto_500.gif">
+<img width="500" height="281" src="img/monkey_pipeline_orto_500.gif">
