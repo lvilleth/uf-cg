@@ -83,7 +83,7 @@ Abaixo temos a implementação do pipeline completo incluindo a divisão pela co
 ## 3. Resultados
 Concluindo o trabalho foi utilizado arquivos do tipo OBJ contendo as faces e os vértices dos objetos a serem tratados. Os objetos utilizados são sempre centrados na origem e a rotação foi feita em torno do eixo Y. O carregamento dos objetos foi realizado por meio de um LOADER disponibilizado pelo professor da disciplina o qual implementa a estrutura de dados de uma lista para manipulação do arquivo.
 
-Abaixo temos um video com a rotação do objeto com a implementação do nosso pipeline e a comparação com o produzido pelo openGL.
+Abaixo temos uma comparação da rotação do objeto com a implementação do nosso pipeline e a comparação com o produzido pelo openGL.
 
 Nosso Pipeline | OpenGL
 ---------------|-------------
@@ -103,6 +103,6 @@ A diferença entre a matriz de modelagem de projeção perspectiva para a de pro
 A diferença entre a matriz de projeção perspectiva para a de projeção ortogonal está no fato de que a segunda utiliza a matriz identidade.
 
 ### Correção
-Abaixo temos o resultado alcançado após a correção da perspectiva com a aplicação da projeção ortogonal.
+Abaixo temos os resultados alcançado após a correção da perspectiva com a aplicação da projeção ortogonal.
 
-<img width="500" height="281" src="img/monkey_pipeline_orto_500.gif">
+<img width="425" height="281" src="img/monkey_pipeline_orto_500.gif"><img width="425" height="281" src="img/tepot_orto_500.gif">
